@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+
+    <!-- Menu From Buyer -->
+
+    <div class="d-flex justify-content-between p-2 bg-secondary">
+        <div class="d-flex gap-4">
+
+            <a href="home.php">
+                <button class="btn btn-primary">View Product</button>
+            </a>
+
+            <a href="view.php">
+                <button class="btn btn-primary">View Cart</button>
+            </a>
+
+            <a href="order.php">
+                <button class="btn btn-primary">Track Order</button>
+            </a>
+
+        </div>
+
+        <a href="../shared/logout.php">
+            <button class="btn btn-danger">LogOut</button>
+        </a>
+    </div>
+
+    <!-- Menu from Seller -->
+
+    <div class="d-flex justify-content-between p-2 bg-secondary">
+        <div class="d-flex gap-4">
+
+            <a href="home.php">
+                <button class="btn btn-primary">Add Product</button>
+            </a>
+
+            <a href="view.php">
+                <button class="btn btn-primary">View Product</button>
+            </a>
+
+            <a href="vieworder.php">
+                <button class="btn btn-primary">View Order</button>
+            </a>
+
+        </div>
+
+        <a href="../shared/logout.php">
+            <button class="btn btn-danger">LogOut</button>
+        </a>
+    </div>
+
+    <!-- SignUp Page -->
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <form action="signup.php" method="post" class="bg-warning p-3 w-50">
+
+            <h3 class="text-center">Signup-here</h3>
+            <input class="form-control mt-2" type="text" placeholder="Username" name="username">
+            <input class="form-control mt-2" type="password" placeholder="Password" name="password">
+            <input class="form-control mt-2" type="password" placeholder="Confirm Password" name="password">
+            <select class="form-control mt-2" name="usertype">
+                <option value="Seller">Seller</option>
+                <option value="Buyer">Buyer</option>
+            </select>
+
+        <div class="text-center">
+            <button class="btn btn-danger mt-3">SignUp</button>
+        </div>
+
+        </form>
+    </div>
+
+    <!-- Login Page -->
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <form action="login.php" method="post" class="bg-success p-3 w-50">
+
+            <h3 class="text-center">Login-here</h3>
+            <input class="form-control mt-2" type="text" placeholder="Username" name="username">
+            <input class="form-control mt-2" type="password" placeholder="Password" name="password">
+
+
+        <div class="text-center">
+            <button class="btn btn-warning mt-3">Login</button>
+        </div>
+
+        
+    </body>
+</html>
+
+<!-- "Thrilled to announce the completion of my first full-stack web development project! 🎉💻 Built from scratch using HTML, CSS, JavaScript, PHP, and MySQL. 
+This journey has been a blend of challenges and learning, and I'm excited for what's next! 🚀 #WebDevelopment #FullStackDevelopment #CodingJourney" -->
